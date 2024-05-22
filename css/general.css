@@ -1,0 +1,66 @@
+body {
+    display: flex;
+}
+
+.menu-lateral {
+    width: 30%;
+    height: 500px;
+    background-color:darkgray;
+}
+.contenido {
+    width: 70%;
+    height: 500px;
+    background-color:burlywood;
+}
+
+.menu-navegacion {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(203, 153, 25);
+}
+.lista-canciones {
+    width: 100%;
+    height: 400px;
+    background-color:cadetblue;
+}
+
+.perfil {
+    width: 100%;
+    height: 100px;
+    background-color:cadetblue;
+}
+.contenedor-categorias {
+    width: 100%;
+    height: 350px;
+    background-color:greenyellow;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+}
+
+.tarjeta {
+    width: 20%;
+}
+
+.tarjeta > img {
+    width: 90%;
+    margin-inline: 5%;
+}
+
+.tarjeta > button {
+    width: 20px;
+    background-color: #1fdf64;
+    border-color: #1fdf64;
+    border-radius: 15px;
+}
+
+.tarjeta:hover > button {
+    display: block !important;
+}
+
+.contenedor-artistas {
+    width: 100%;
+    height: 200px;
+    background-color:rgb(114, 169, 232);
+}
